@@ -199,6 +199,13 @@ PRODUCT_PACKAGES += \
     wpa_supplicant \
     wpa_supplicant.conf
 
+# Viper4Android
+PRODUCT_PROPERTY_OVERRIDES += \
+    lpa.decode=false \
+    lpa.releaselock=false \
+    lpa.use-stagefright=false \
+    tunnel.decode=false
+
 # Camera
 PRODUCT_PACKAGES += \
     camera.msm8992 \
