@@ -31,9 +31,5 @@ PRODUCT_MODEL := AOSP on BullHead
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_RESTRICT_VENDOR_FILES := true
 
-$(call inherit-product, device/lge/bullhead/device.mk)
+$(call inherit-product, device/lge/bullhead/full_bullhead.mk)
 $(call inherit-product-if-exists, vendor/lge/bullhead/device-vendor.mk)
-
-PRODUCT_PACKAGES += \
-    Launcher3
-
