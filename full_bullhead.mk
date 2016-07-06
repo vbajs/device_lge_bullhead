@@ -26,7 +26,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 PRODUCT_NAME := full_bullhead
 PRODUCT_DEVICE := bullhead
-PRODUCT_BRAND := LGE
+PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 5X
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_RESTRICT_VENDOR_FILES := true
