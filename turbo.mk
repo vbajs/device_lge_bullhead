@@ -1,3 +1,5 @@
+$(call inherit-product, device/lge/bullhead/full_bullhead.mk)
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
@@ -8,8 +10,9 @@ $(call inherit-product, vendor/turbo/config/common_full_phone.mk)
 # Enhanced NFC
 $(call inherit-product, vendor/vturbo/config/nfc_enhanced.mk)
 
-# Inherit device configuration
-$(call inherit-product, device/lge/bullhead/aosp_bullhead.mk)
+# Gello
+PRODUCT_PACKAGES +=
+   Gello
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := turbo_bullhead
