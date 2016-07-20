@@ -1,14 +1,14 @@
 [
   {
+    "remote": "github",
     "repository": "akhilnarang/ThugLife_bullhead",
     "target_path": "kernel/lge/bullhead",
-    "branch": "master",
-    "remote": "github"
+    "branch": "master"
   },
   {
+   "remote": "github"
    "repository": "TheMuppets/proprietary_vendor_lge",
    "target_path": "vendor/lge",
    "branch": "cm-13.0",
-   "remote": "github"
   }
 ]
