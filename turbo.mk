@@ -10,6 +10,10 @@ $(call inherit-product, vendor/turbo/config/common_full_phone.mk)
 # Enhanced NFC
 $(call inherit-product, vendor/vturbo/config/nfc_enhanced.mk)
 
+# ViPER4Android
+PRODUCT_PACKAGES += \
+ViPER4Android
+
 # Gello
 PRODUCT_PACKAGES +=
    Gello
