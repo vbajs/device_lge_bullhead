@@ -29,7 +29,7 @@ PRODUCT_DEVICE := bullhead
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 5X
 PRODUCT_MANUFACTURER := LGE
-PRODUCT_RESTRICT_VENDOR_FILES := true
+#PRODUCT_RESTRICT_VENDOR_FILES := true
 
 # Inherit from bullhead device
 $(call inherit-product, device/lge/bullhead/device.mk)
