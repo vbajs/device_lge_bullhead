@@ -388,9 +388,12 @@
          * The device must be provisioned with HDCP keys (for protected content).
     -->
     <bool name="config_enableWifiDisplay">true</bool>
+<<<<<<< HEAD
 
     <!-- Hide Project Fi app unless it is being used -->
     <string-array name="config_disabledUntilUsedPreinstalledCarrierApps">
         <item>com.google.android.apps.tycho</item>
     </string-array>
+=======
+>>>>>>> 4618bc2... Merge tag 'android-6.0.1_r62' into HEAD
 </resources>

@@ -15,4 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
+<<<<<<< HEAD
     $(LOCAL_DIR)/turbo.mk
+=======
+    $(LOCAL_DIR)/aosp_bullhead.mk \
+    $(LOCAL_DIR)/tesla.mk
+>>>>>>> 4618bc2... Merge tag 'android-6.0.1_r62' into HEAD
