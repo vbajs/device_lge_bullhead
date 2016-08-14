@@ -25,6 +25,8 @@
 
 ifneq ($(filter bullhead, $(TARGET_DEVICE)),)
 
+$(error This is turbo-dev branch, which means its unstable, please delete this tree and clone the stabe one by removing the -b flag or clone this https://github.com/TurboROM-Devices/device_lge_bullhead.git, if you really want to use this tree then in Android.mk delete line 28 which produces this error, if you excuse me, make do ya thing)
+
 LOCAL_PATH := $(call my-dir)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
