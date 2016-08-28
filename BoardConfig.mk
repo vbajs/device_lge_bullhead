@@ -24,7 +24,7 @@ TARGET_2ND_ARCH := arm
 TARGET_2ND_ARCH_VARIANT := armv7-a-neon
 TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
-TARGET_2ND_CPU_VARIANT := cortex-a7
+TARGET_2ND_CPU_VARIANT := cortex-a53.a57
 
 ENABLE_CPUSETS := true
 
@@ -71,7 +71,6 @@ BOARD_HAVE_BLUETOOTH_QCOM := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/bullhead/bluetooth
 BOARD_HAS_QCA_BT_ROME := true
 WCNSS_FILTER_USES_SIBS := true
-BOARD_BLUETOOTH_BDROID_HCILP_INCLUDED := false
 
 BOARD_HAS_QCOM_WLAN := true
 BOARD_WLAN_DEVICE := qcwcn
@@ -156,7 +155,8 @@ BOARD_QTI_CAMERA_32BIT_ONLY := true
 #Enable peripheral manager
 TARGET_PER_MGR_ENABLED := true
 
-# Include an expanded selection of fonts
-EXTENDED_FONT_FOOTPRINT := true
+USE_CLANG_PLATFORM_BUILD := true
+
+USE_CLANG_PLATFORM_BUILD := true
 
 -include vendor/lge/bullhead/BoardConfigVendor.mk
